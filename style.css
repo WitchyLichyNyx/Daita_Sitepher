@@ -1,0 +1,163 @@
+html{
+    background-color: rgb(33, 31, 46);
+    font-family: 'Source Code Pro', monospace;
+    color: aliceblue;
+    cursor:crosshair;
+    height: 1500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Assets/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+ 
+    border-radius: 0.3em;
+    background-color: rgb(22, 29, 68);
+    font-size: 2em;
+    text-decoration: none;
+}
+
+/* Box Styling */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 40rem;
+    
+}
+
+.card{
+    background-color: aliceblue;
+    z-index: -1;
+    /* border: 0.1rem solid rgb(185, 185, 185) ;
+    border-width: 0rem 0.1rem; */
+    grid-column: 1 / 6;
+    grid-row: 1/2;    
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Assets/binarybg.gif);
+    background-attachment: fixed;
+}
+.upbox{
+    margin-top: 20%;
+}
+
+.downbox{
+    margin-bottom: 20%;
+}
+    /* IDs */
+    #one {
+        grid-column:1;
+    }
+    #two {
+        grid-column:2;
+    }
+    #three {
+        grid-column:3;
+    }
+    #four {
+        grid-column:4;
+    }
+    #five {
+        grid-column:5;
+    }
+    #one1 {
+        grid-column: 1;
+        width: 0.3em;
+        margin-left: 9em;
+        z-index: -2;
+        margin-top: 1%;
+    }
+    #one2 {
+        grid-column: 1;
+        width: 0.3em;
+        margin-left: 0em;
+        z-index: -2;
+        margin-top: 15%;
+    }
+    #three1 {
+        grid-column: 3;
+        width: 0.5em;
+        margin-left: 1em;
+        z-index: -2;
+        margin-top: 5%;
+    }
+    #three2 {
+        grid-column: 3;
+        width: 1em;
+        margin-left: 2em;
+        z-index: -2;
+        margin-top: 2%;
+    }
+    #four1 {
+        grid-column: 4;
+        width: 0.1em;
+        margin-left: 3em;
+        z-index: -2;
+        margin-bottom: 5%;
+    }
+    #four2 {
+        grid-column: 4;
+        width: 0.1em;
+        margin-left: 2.5em;
+        z-index: -2;
+        margin-bottom: 10%;
+    }
+    #four3 {
+        grid-column: 4;
+        width: 0.1em;
+        margin-left: 5em;
+        z-index: -2;
+        margin-bottom: 15%;
+    }
+    /* IDs End */
+
+.text {
+    font-size: 2rem;
+    color: white;
+    grid-row: 1 / 2;
+    grid-column: 1 / 6;
+    align-self: center;
+    text-align: center;
+}
+    /* Text IDs */
+    #ena {
+        margin-bottom: 10%;
+    }
+    #dyo {
+        margin-top: 10%;
+    }
+
+    /* Text IDs End */
+
+/* Box Styling End */
+.gif{
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+
+}
+
+/* Other Stuff */
+.aboutmebulletpts{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.buzzwords{
+    text-transform: uppercase;
+}
+
+.link{
+    color: rgb(210, 101, 231);
+}
+
+footer{
+    position: relative;
+    
+}
+
+

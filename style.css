@@ -9,7 +9,7 @@ html{
     background-image: url(./Assets/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
     background-attachment: fixed;
 }
-
+/* header stuff */
 header{
     width: 100%;
  
@@ -17,7 +17,23 @@ header{
     background-color: rgb(22, 29, 68);
     font-size: 2em;
     text-decoration: none;
+    display:flex;
+    gap: 1rem;
 }
+
+.button{
+    background-color: rgb(50, 23, 112);
+    border-radius: 5px;
+}
+
+@media (hover:hover) {
+    .button:hover{
+        background-color: rgb(88, 57, 160);
+        color: rgb(32, 7, 56);
+    }
+}
+
+/* end header stuff */
 
 /* Box Styling */
 
@@ -132,13 +148,15 @@ header{
     grid-column: 1 / 6;
     align-self: center;
     text-align: center;
+    display: inline-block;
+
 }
     /* Text IDs */
     #ena {
-        margin-bottom: 10%;
+        margin-bottom: 20%;
     }
     #dyo {
-        margin-top: 10%;
+        margin-top: 20%;
     }
 
 .litext{
@@ -172,6 +190,7 @@ header{
 
 .link{
     color: rgb(210, 101, 231);
+    text-decoration: none;
 }
 
 footer{
@@ -229,4 +248,17 @@ footer{
     
         /* Text IDs End */
     
+}
+
+/* foot */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+
+}
+.ad{
+    align-self:flex-end;
+
 }
